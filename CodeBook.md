@@ -4,13 +4,13 @@ The dataset was collected from an experiment that was carried out with a group o
 # Data Cleaning
 The tasks performed to cleaning the raw dataset was as follows:
 
-1. Merged the training and the test sets to create one dataset. There    were 3 files for each set that had to be merged.Two additional files   (feature names and activity labels) were needed to appropriately       name/label the data.
+1. Merged the training and the test sets to create one dataset. There were 3 files for each set that had to be merged.Two additional files (feature names and activity labels) were needed to appropriately name/label the data.
 
-2. Extracted only the measurements on the mean and standard deviation     for each measurement. Shown below as "Features".
+2. Extracted only the measurements on the mean and standard deviation for each measurement. Shown below as "Features".
 
-3. Used descriptive activity names to name the activities in the data     set. Shown below in "Identifiers - Activity"
+3. Used descriptive activity names to name the activities in the dataset. Shown below in "Identifiers - Activity"
 
-4. Appropriately labeled the data set with descriptive variable           names.
+4. Appropriately labeled the data set with descriptive variable names.
         Updated featured names:
             - t to time
             - Acc to Accelerometer
@@ -18,9 +18,10 @@ The tasks performed to cleaning the raw dataset was as follows:
             - f to frequency
             - Gyro to Gyroscope
 
-5. Using the data set in step 4, created a second, independent tidy      dataset with the average of each variable for each activity and each   subject.
+5. Using the data set in step 4, created a second, independent tidy dataset with the average of each variable for each activity and each   subject.
 
 # Variables
+
 Features:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerometer-XYZ and tGyroscope-XYZ.
@@ -108,5 +109,5 @@ The clean dataset only includes the measurements on the mean and standard deviat
 
 Identifiers:
 [1] Subject - The ID of the patient who completed the experiment
-[2] Activity - The six activities performed by the pations: walking,                 walking upstairs, walking downstairs, sitting, standing                and laying
+[2] Activity - The six activities performed by the pations: walking, walking upstairs, walking downstairs, sitting, standing and laying
 
