@@ -1,7 +1,7 @@
 # Dataset Overview
 The dataset was collected from an experiment that was carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities, which included walking, walking upstairs, walking downstairs, sitting, standing and laying while wearing a smartphone (Samsung Galaxy S II) on their waist. Using the embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. The raw dataset was randomly partitioned into two sets, where 70% was designated as training data and 30% was the test data. 
 
-#Data Cleaning
+# Data Cleaning
 The tasks performed to cleaning the raw dataset was as follows:
 
 1. Merged the training and the test sets to create one dataset. There    were 3 files for each set that had to be merged.Two additional files   (feature names and activity labels) were needed to appropriately       name/label the data.
@@ -20,7 +20,7 @@ The tasks performed to cleaning the raw dataset was as follows:
 
 5. Using the data set in step 4, created a second, independent tidy      dataset with the average of each variable for each activity and each   subject.
 
-#Variables
+# Variables
 Features:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerometer-XYZ and tGyroscope-XYZ.
